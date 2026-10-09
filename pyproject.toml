@@ -1,0 +1,17 @@
+[project]
+name = "acapulco-mobility-intelligence"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]

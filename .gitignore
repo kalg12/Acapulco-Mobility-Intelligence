@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Local datasets
+/data/raw/*
+/data/processed/*
+
+# Keep dataset documentation
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+
+# Sensitive files
+*.sqlite
+*.sqlite3
